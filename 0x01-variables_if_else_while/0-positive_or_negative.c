@@ -1,11 +1,12 @@
 #include<stdlib.h>
+#include<stdio.h>
 #include<time.h>
 /*
  * main - entry point
  * Return:always return 0
  *
  */
-int main(void)
+int main(void)
 {
 int n;
 srand(time(0));
@@ -20,5 +21,5 @@ if (n > 0)
 {
 	printf("%d is negative\n", n);
 }
-	return (0);
+return (0);
 }
